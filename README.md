@@ -7,7 +7,7 @@ This repository contain implementation samples of the SubDB hash function on mul
 
 To make sure that your hash function is returning the correct hash for a video, here we have two sample files you can use to compare:
 
-[Showtime Dexter Promo][2] sample for SubDB: ffd8d4aa68033dc03d1c8ef373b9028c
+[Showtime Dexter Promo][2] sample for SubDB: ffd8d4aa68033dc03d1c8ef373b9028c  
 [FX Justified Trailer][3] sample for SubDB: edc1981d6459c6111fe36205b4aff6c2 
 
 # Contributing
