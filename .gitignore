@@ -1,0 +1,4 @@
+# OS ignore
+.DS_Store
+Thumbs.db
+*~
