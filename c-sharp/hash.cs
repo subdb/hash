@@ -11,7 +11,7 @@ string getHash(string filePath) {
 		byte[] firstBytes = new byte[readSize];
 		byte[] lastBytes = new byte[readSize];
 		reader.Read(firstBytes, 0, readSize);
-		reader.BaseStream.Seek(-readSize, SeekOrigin.End);
+		reader.BaseStream.Seek(-(readSize), SeekOrigin.End); //added the () for readSize, otherwise gives an IOException
 		reader.Read(lastBytes, 0, readSize);
 		Array.Copy(firstBytes, bytes, firstBytes.Length);
 		Array.Copy(lastBytes, 0, bytes, firstBytes.Length, lastBytes.Length);
